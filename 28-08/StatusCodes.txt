@@ -1,0 +1,13 @@
+1) 200 OK 
+404 ny Error, wrong adresse
+index1.hmtml 304
+img src 200
+2)
+myStyle.css 404
+3)
+The two HTTP-request you see.
+302
+200
+How the browser knew where to go in the second request
+
+4)
