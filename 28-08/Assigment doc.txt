@@ -116,5 +116,19 @@ JSESSIONID=460EDBCC31D4986CC4974C8273A61429
 JSESSIONID=5DEFA1A724DDB2D2C66C30977D2C8002
 
 8)
+Write down your observations
+
+Explain (on paper) how Cookies can be used to maintain “state” on the client between subsequent calls to a server, even when a browser has been closed down.
+
+You can see that the browser rembers the cookie which is save on the cache. Because the cookies life span is set to be over a year so it wont forget it until at year has passed unsless the setMaxAge() changes to something
+
+HTTP/1.1 200 Set-Cookie: username=boisa; 
+Max-Age=31536000; 
+Expires=Sat, 29-Aug-2020 17:44:31 GMT
+
+1. Request URL: 
+http://localhost:8080/demosHttp/CookieDemo?name=boisa
+2. Request Method: 
+GET
 
 

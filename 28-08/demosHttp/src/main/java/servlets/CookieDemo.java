@@ -35,7 +35,7 @@ public class CookieDemo extends HttpServlet {
         String name = request.getParameter("name");
         if (name != null) {
             Cookie cookie = new Cookie("username", name);
-            cookie.setMaxAge(60 * 60 * 24 * 365);
+            cookie.setMaxAge(60 * 60 * 24 * 365); // makes the cookies lifespan to be a year
             response.addCookie(cookie);
         }
         Cookie[] cookies = request.getCookies();
